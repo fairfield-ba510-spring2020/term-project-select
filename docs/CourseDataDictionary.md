@@ -3,6 +3,7 @@ __Bridget Weill & Chris Lametta__
 
 
 ## Class
+
 | Key | Field | Definition | Type |
 | :--- | :--- | :--- | :--- |
 | PK | ClassID | | Integer |
@@ -10,10 +11,10 @@ __Bridget Weill & Chris Lametta__
 | FK | ProfessorID | | Integer |
 | | CatalogID | |Text |
 | | Term | | Text |
-| | CRN | | Integer |
+| | CRN | Course Registration Number: Specific to an individual class | Integer |
 | | Section | | Integer |
-| | Credits | | Integer |
-| | Title | | Text |
+| | Credits | The recognition for having taken a course at school or university; measures if enough hours have been made for graduation | Integer |
+| | Title | Name of the class | Text |
 | | Timecodes | | Text |
 | | Meetings | | Text |
 | | Capacity | | Integer |
@@ -64,11 +65,11 @@ __Bridget Weill & Chris Lametta__
 | PK | ProfessorID | | Integer |
 | | Name | | Text |
 
+
+
 __2. Design a normalized relational database that can contain all CSV data in your `SourceData` repository. Document the design with an ERD and a data dictionary.__
 
-- The database should not leave off any files or columns.
-- Normalize to at least BCNF.
-- The ERD should be a PDF file named "CourseDataERD.PDF" to be dropped in the `docs` folder.
+
 - Also in the `docs` folder, add a Markdown-formatted `CourseDataDictionary.md` file that defines every column on every table. Use the table names as second level headings (`##`) and bullet lists for the column definitions. If you are feeling frisky, then perhaps use Markdown tables instead of bullet lists.  
 - Take care with the [Markdown formatting](https://github.github.com/gfm/). Dropping big, stupidly-formatted blobs of text is very bad form. It's also extremely unprofessional.
 
