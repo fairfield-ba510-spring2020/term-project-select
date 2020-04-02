@@ -6,10 +6,10 @@ __Bridget Weill & Chris Lametta__
 
 | Key | Field | Definition | Type |
 | :--- | :--- | :--- | :--- |
-| PK | ClassID | | Integer |
-| FK | CourseCatalogID | | Integer |
+| PK | ClassID |  | Integer |
+| FK | CourseCatalogID |  | Integer |
 | FK | ProfessorID | | Integer |
-| | CatalogID | |Text |
+| | CatalogID | | Text |
 | | Term | | Text |
 | | CRN | Course Registration Number: Specific to an individual class | Integer |
 | | Section | | Integer |
