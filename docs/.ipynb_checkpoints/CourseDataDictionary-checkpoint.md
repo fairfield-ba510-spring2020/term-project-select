@@ -6,19 +6,11 @@ __Bridget Weill & Chris Lametta__
 
 | Key | Field | Definition | Type |
 | :--- | :--- | :--- | :--- |
-<<<<<<< HEAD
-| PK | ClassID |  | Integer |
-| FK | CourseCatalogID |  | Integer |
-| FK | ProfessorID | | Integer |
-| | CatalogID | | Text |
-| | Term | | Text |
-=======
 | PK | ClassID | ID number to specific class | Integer |
 | FK | CourseCatalogID | ID number for course catalog| Integer |
 | FK | ProfessorID | ID number identifying professor | Integer |
 | | CatalogID | ID number for each catalog |Text |
 | | Term | The length of time a course lasts | Text |
->>>>>>> 3983e610f9dad44afea51e106df91c3bdde366bf
 | | CRN | Course Registration Number: Specific to an individual class | Integer |
 | | Section | An individual course offering, distinguished from other course sections | Integer |
 | | Credits | The recognition for having taken a course at school or university; measures if enough hours have been made for graduation | Integer |
